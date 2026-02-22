@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\Shared\Hooks\" />
+    <Folder Include="src\Shared\Utils\" />
+    <Folder Include="src\app\" />
+    <Folder Include="src\Features\Auth\Components\" />
+    <Folder Include="src\Features\Auth\Types\" />
+    <Folder Include="src\Features\Auth\Pages\" />
+  </ItemGroup>
+</Project>
