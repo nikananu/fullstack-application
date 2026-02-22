@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.jwttoken", "jwttoken\MyProject.jwttoken.csproj", "{DC42AADD-22E1-40BD-9DD7-888CA8ED3472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.jwttoken", "jwttoken\MyProject.jwttoken.csproj", "{DC42AADD-22E1-40BD-9DD7-888CA8ED3472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Account.Application", "Account.Application\MyProject.Account.Application.csproj", "{38822FED-F8C1-42B6-AB66-64184E7F7696}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Account.Application", "Account.Application\MyProject.Account.Application.csproj", "{38822FED-F8C1-42B6-AB66-64184E7F7696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Account.Domain", "MyProject.Account.Domain\MyProject.Account.Domain.csproj", "{769B3622-967E-4FF6-BBDD-908DB60E98BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Account.Domain", "MyProject.Account.Domain\MyProject.Account.Domain.csproj", "{769B3622-967E-4FF6-BBDD-908DB60E98BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Account.Infrastructure", "MyProject.Account.Infrastructure\MyProject.Account.Infrastructure.csproj", "{857BA257-E7DC-4FFB-8690-67BFC0BDE9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProject.Account.Infrastructure", "MyProject.Account.Infrastructure\MyProject.Account.Infrastructure.csproj", "{857BA257-E7DC-4FFB-8690-67BFC0BDE9D5}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "myproject.react", "MyProject.React\myproject.react.esproj", "{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{857BA257-E7DC-4FFB-8690-67BFC0BDE9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857BA257-E7DC-4FFB-8690-67BFC0BDE9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857BA257-E7DC-4FFB-8690-67BFC0BDE9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242E22FC-04C8-46A2-BC0A-4EC780A31DF8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

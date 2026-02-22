@@ -32,7 +32,7 @@ namespace MyProject.Account.Application.Features.Register
             var hash = _passwordHasher.Hash(request.Password);
 
             // 3. Create domain entity
-            var user = new User(request.Email, hash);
+            var user = new User(request.Name,request.Phone,request.DateOfBirth,request.Email, hash);
 
             // 4. Save user
             await _userRepository.AddAsync(user);
@@ -41,7 +41,13 @@ namespace MyProject.Account.Application.Features.Register
             return new RegisterResponseDto
             {
                 UserId = user.Id,
-                Email = user.Email
+                Name = user.Name,
+                Email = user.Email,
+                phone = user.Phone,
+                DateOfBirth = user.DateOfBirth,
+                CreatedAt = user.CreatedAt,
+                
+
             };
         }
     }
